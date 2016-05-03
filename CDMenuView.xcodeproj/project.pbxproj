@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3713C3291CD8852E0025E941 /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3713C3271CD8852E0025E941 /* CExpandHeader.m */; };
+		3713C32A1CD8852E0025E941 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3713C3281CD8852E0025E941 /* image.png */; };
+		3763A9E61CC62C7C001461A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763A9E51CC62C7C001461A6 /* main.m */; };
+		3763A9E91CC62C7C001461A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763A9E81CC62C7C001461A6 /* AppDelegate.m */; };
+		3763A9F11CC62C7C001461A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3763A9F01CC62C7C001461A6 /* Assets.xcassets */; };
+		3763A9F41CC62C7C001461A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3763A9F21CC62C7C001461A6 /* LaunchScreen.storyboard */; };
+		3763AA021CC62D1F001461A6 /* CDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763AA001CC62D1F001461A6 /* CDMainViewController.m */; };
+		3763AA031CC62D1F001461A6 /* CDMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3763AA011CC62D1F001461A6 /* CDMainViewController.xib */; };
+		3763AA061CC62D6E001461A6 /* CDMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763AA051CC62D6E001461A6 /* CDMenuView.m */; };
+		3763AA0A1CC63263001461A6 /* CDCollectionItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763AA081CC63263001461A6 /* CDCollectionItemCell.m */; };
+		3763AA0B1CC63263001461A6 /* CDCollectionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3763AA091CC63263001461A6 /* CDCollectionItemCell.xib */; };
+		3764ACC31CC75A8300F28195 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3764ACC21CC75A8300F28195 /* UIKit.framework */; };
+		3764ACC51CC75A9D00F28195 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3764ACC41CC75A9D00F28195 /* Foundation.framework */; };
+		3764ACC71CC75AA500F28195 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3764ACC61CC75AA500F28195 /* CoreFoundation.framework */; };
+		37AFDF161CD3500000ED57B7 /* header_view_image_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37AFDF151CD3500000ED57B7 /* header_view_image_bg.jpg */; };
+		37C5083C1CD057B2004D972F /* CDTestGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C5083A1CD057B2004D972F /* CDTestGroupViewController.m */; };
+		37C5083D1CD057B2004D972F /* CDTestGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C5083B1CD057B2004D972F /* CDTestGroupViewController.xib */; };
+		37C508421CD05B90004D972F /* CDGroupOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C508401CD05B90004D972F /* CDGroupOneCell.m */; };
+		37C508431CD05B90004D972F /* CDGroupOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C508411CD05B90004D972F /* CDGroupOneCell.xib */; };
+		37C5084A1CD05D6E004D972F /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C508471CD05D6E004D972F /* UIImage+RoundedCorner.m */; };
+		37C5084B1CD05D6E004D972F /* UIView+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C508491CD05D6E004D972F /* UIView+RoundedCorner.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3713C3261CD8852E0025E941 /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
+		3713C3271CD8852E0025E941 /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
+		3713C3281CD8852E0025E941 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		3763A9E11CC62C7C001461A6 /* CDMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3763A9E51CC62C7C001461A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3763A9E71CC62C7C001461A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3763A9E81CC62C7C001461A6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3763A9F01CC62C7C001461A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3763A9F31CC62C7C001461A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3763A9F51CC62C7C001461A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3763A9FF1CC62D1F001461A6 /* CDMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMainViewController.h; sourceTree = "<group>"; };
+		3763AA001CC62D1F001461A6 /* CDMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMainViewController.m; sourceTree = "<group>"; };
+		3763AA011CC62D1F001461A6 /* CDMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDMainViewController.xib; sourceTree = "<group>"; };
+		3763AA041CC62D6E001461A6 /* CDMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDMenuView.h; sourceTree = "<group>"; };
+		3763AA051CC62D6E001461A6 /* CDMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDMenuView.m; sourceTree = "<group>"; };
+		3763AA071CC63263001461A6 /* CDCollectionItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCollectionItemCell.h; sourceTree = "<group>"; };
+		3763AA081CC63263001461A6 /* CDCollectionItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCollectionItemCell.m; sourceTree = "<group>"; };
+		3763AA091CC63263001461A6 /* CDCollectionItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDCollectionItemCell.xib; sourceTree = "<group>"; };
+		3763AA0D1CC63709001461A6 /* CDCommenHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCommenHeader.h; sourceTree = "<group>"; };
+		3764ACC21CC75A8300F28195 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3764ACC41CC75A9D00F28195 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3764ACC61CC75AA500F28195 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		37AFDF151CD3500000ED57B7 /* header_view_image_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header_view_image_bg.jpg; sourceTree = "<group>"; };
+		37C508391CD057B2004D972F /* CDTestGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDTestGroupViewController.h; sourceTree = "<group>"; };
+		37C5083A1CD057B2004D972F /* CDTestGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDTestGroupViewController.m; sourceTree = "<group>"; };
+		37C5083B1CD057B2004D972F /* CDTestGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDTestGroupViewController.xib; sourceTree = "<group>"; };
+		37C5083F1CD05B90004D972F /* CDGroupOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDGroupOneCell.h; sourceTree = "<group>"; };
+		37C508401CD05B90004D972F /* CDGroupOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDGroupOneCell.m; sourceTree = "<group>"; };
+		37C508411CD05B90004D972F /* CDGroupOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CDGroupOneCell.xib; sourceTree = "<group>"; };
+		37C508461CD05D6E004D972F /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		37C508471CD05D6E004D972F /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		37C508481CD05D6E004D972F /* UIView+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RoundedCorner.h"; sourceTree = "<group>"; };
+		37C508491CD05D6E004D972F /* UIView+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RoundedCorner.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3763A9DE1CC62C7C001461A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3764ACC71CC75AA500F28195 /* CoreFoundation.framework in Frameworks */,
+				3764ACC51CC75A9D00F28195 /* Foundation.framework in Frameworks */,
+				3764ACC31CC75A8300F28195 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3713C3251CD8852E0025E941 /* CExpandHeader */ = {
+			isa = PBXGroup;
+			children = (
+				3713C3261CD8852E0025E941 /* CExpandHeader.h */,
+				3713C3271CD8852E0025E941 /* CExpandHeader.m */,
+				3713C3281CD8852E0025E941 /* image.png */,
+			);
+			path = CExpandHeader;
+			sourceTree = "<group>";
+		};
+		3763A9D81CC62C7C001461A6 = {
+			isa = PBXGroup;
+			children = (
+				3764ACC11CC75A6500F28195 /* Frameworks */,
+				3763A9E31CC62C7C001461A6 /* CDMenuView */,
+				3763A9E21CC62C7C001461A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3763A9E21CC62C7C001461A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3763A9E11CC62C7C001461A6 /* CDMenuView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3763A9E31CC62C7C001461A6 /* CDMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				37C508441CD05D5D004D972F /* Libs */,
+				3763A9FB1CC62CC7001461A6 /* Class */,
+				3763A9E41CC62C7C001461A6 /* Supporting Files */,
+			);
+			path = CDMenuView;
+			sourceTree = "<group>";
+		};
+		3763A9E41CC62C7C001461A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37AFDF151CD3500000ED57B7 /* header_view_image_bg.jpg */,
+				3763A9E71CC62C7C001461A6 /* AppDelegate.h */,
+				3763A9E81CC62C7C001461A6 /* AppDelegate.m */,
+				3763A9F01CC62C7C001461A6 /* Assets.xcassets */,
+				3763A9F21CC62C7C001461A6 /* LaunchScreen.storyboard */,
+				3763A9F51CC62C7C001461A6 /* Info.plist */,
+				3763A9E51CC62C7C001461A6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3763A9FB1CC62CC7001461A6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3763A9FC1CC62CF5001461A6 /* Controllers */,
+				3763A9FD1CC62CF5001461A6 /* Model */,
+				3763A9FE1CC62CF5001461A6 /* Views */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3763A9FC1CC62CF5001461A6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3763A9FF1CC62D1F001461A6 /* CDMainViewController.h */,
+				3763AA001CC62D1F001461A6 /* CDMainViewController.m */,
+				3763AA011CC62D1F001461A6 /* CDMainViewController.xib */,
+				37C508381CD0576D004D972F /* TableViewGroup */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3763A9FD1CC62CF5001461A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3763A9FE1CC62CF5001461A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3763AA041CC62D6E001461A6 /* CDMenuView.h */,
+				3763AA051CC62D6E001461A6 /* CDMenuView.m */,
+				3763AA071CC63263001461A6 /* CDCollectionItemCell.h */,
+				3763AA081CC63263001461A6 /* CDCollectionItemCell.m */,
+				3763AA091CC63263001461A6 /* CDCollectionItemCell.xib */,
+				3763AA0D1CC63709001461A6 /* CDCommenHeader.h */,
+				37C5083E1CD05B5A004D972F /* TableViewGroupCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3764ACC11CC75A6500F28195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3764ACC61CC75AA500F28195 /* CoreFoundation.framework */,
+				3764ACC41CC75A9D00F28195 /* Foundation.framework */,
+				3764ACC21CC75A8300F28195 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37C508381CD0576D004D972F /* TableViewGroup */ = {
+			isa = PBXGroup;
+			children = (
+				37C508391CD057B2004D972F /* CDTestGroupViewController.h */,
+				37C5083A1CD057B2004D972F /* CDTestGroupViewController.m */,
+				37C5083B1CD057B2004D972F /* CDTestGroupViewController.xib */,
+			);
+			path = TableViewGroup;
+			sourceTree = "<group>";
+		};
+		37C5083E1CD05B5A004D972F /* TableViewGroupCell */ = {
+			isa = PBXGroup;
+			children = (
+				37C5083F1CD05B90004D972F /* CDGroupOneCell.h */,
+				37C508401CD05B90004D972F /* CDGroupOneCell.m */,
+				37C508411CD05B90004D972F /* CDGroupOneCell.xib */,
+			);
+			path = TableViewGroupCell;
+			sourceTree = "<group>";
+		};
+		37C508441CD05D5D004D972F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3713C3251CD8852E0025E941 /* CExpandHeader */,
+				37C508451CD05D6E004D972F /* JMRoundedCorner */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		37C508451CD05D6E004D972F /* JMRoundedCorner */ = {
+			isa = PBXGroup;
+			children = (
+				37C508461CD05D6E004D972F /* UIImage+RoundedCorner.h */,
+				37C508471CD05D6E004D972F /* UIImage+RoundedCorner.m */,
+				37C508481CD05D6E004D972F /* UIView+RoundedCorner.h */,
+				37C508491CD05D6E004D972F /* UIView+RoundedCorner.m */,
+			);
+			path = JMRoundedCorner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3763A9E01CC62C7C001461A6 /* CDMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3763A9F81CC62C7C001461A6 /* Build configuration list for PBXNativeTarget "CDMenuView" */;
+			buildPhases = (
+				3763A9DD1CC62C7C001461A6 /* Sources */,
+				3763A9DE1CC62C7C001461A6 /* Frameworks */,
+				3763A9DF1CC62C7C001461A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDMenuView;
+			productName = CDMenuView;
+			productReference = 3763A9E11CC62C7C001461A6 /* CDMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3763A9D91CC62C7C001461A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Cindy;
+				TargetAttributes = {
+					3763A9E01CC62C7C001461A6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 3763A9DC1CC62C7C001461A6 /* Build configuration list for PBXProject "CDMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3763A9D81CC62C7C001461A6;
+			productRefGroup = 3763A9E21CC62C7C001461A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3763A9E01CC62C7C001461A6 /* CDMenuView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3763A9DF1CC62C7C001461A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3763A9F41CC62C7C001461A6 /* LaunchScreen.storyboard in Resources */,
+				3763A9F11CC62C7C001461A6 /* Assets.xcassets in Resources */,
+				3763AA031CC62D1F001461A6 /* CDMainViewController.xib in Resources */,
+				37C508431CD05B90004D972F /* CDGroupOneCell.xib in Resources */,
+				3763AA0B1CC63263001461A6 /* CDCollectionItemCell.xib in Resources */,
+				37C5083D1CD057B2004D972F /* CDTestGroupViewController.xib in Resources */,
+				37AFDF161CD3500000ED57B7 /* header_view_image_bg.jpg in Resources */,
+				3713C32A1CD8852E0025E941 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3763A9DD1CC62C7C001461A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C5084A1CD05D6E004D972F /* UIImage+RoundedCorner.m in Sources */,
+				3763AA0A1CC63263001461A6 /* CDCollectionItemCell.m in Sources */,
+				3763A9E91CC62C7C001461A6 /* AppDelegate.m in Sources */,
+				37C508421CD05B90004D972F /* CDGroupOneCell.m in Sources */,
+				3763AA021CC62D1F001461A6 /* CDMainViewController.m in Sources */,
+				37C5084B1CD05D6E004D972F /* UIView+RoundedCorner.m in Sources */,
+				3763AA061CC62D6E001461A6 /* CDMenuView.m in Sources */,
+				3763A9E61CC62C7C001461A6 /* main.m in Sources */,
+				3713C3291CD8852E0025E941 /* CExpandHeader.m in Sources */,
+				37C5083C1CD057B2004D972F /* CDTestGroupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3763A9F21CC62C7C001461A6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3763A9F31CC62C7C001461A6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3763A9F61CC62C7C001461A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3763A9F71CC62C7C001461A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3763A9F91CC62C7C001461A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cindy.source.CDMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3763A9FA1CC62C7C001461A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CDMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cindy.source.CDMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3763A9DC1CC62C7C001461A6 /* Build configuration list for PBXProject "CDMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3763A9F61CC62C7C001461A6 /* Debug */,
+				3763A9F71CC62C7C001461A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3763A9F81CC62C7C001461A6 /* Build configuration list for PBXNativeTarget "CDMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3763A9F91CC62C7C001461A6 /* Debug */,
+				3763A9FA1CC62C7C001461A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3763A9D91CC62C7C001461A6 /* Project object */;
+}
