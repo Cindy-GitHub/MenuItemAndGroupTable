@@ -43,9 +43,11 @@ CGFloat const FooterViewOtherHeight = 4.0;
     
     [_customView addSubview:imageView];
     
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 320, 30)];
+    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 30)];
+    label.center = CGPointMake(ScreenWidth/2.0, HeaderViewTopHeight/2.0);
+    label.textAlignment = NSTextAlignmentCenter;
     [label setText:@"这是一个自定义头部view"];
-    [label setTextColor:[UIColor redColor]];
+    [label setTextColor:[UIColor whiteColor]];
     [_customView addSubview:label];
     
     _header = [CExpandHeader expandWithScrollView:self.tableViewGroup expandView:_customView];
