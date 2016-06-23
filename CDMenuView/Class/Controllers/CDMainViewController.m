@@ -9,6 +9,7 @@
 #import "CDMainViewController.h"
 #import "CDMenuView.h"
 #import "CDTestGroupViewController.h"
+#import "CDNewLinerHomeViewController.h"
 
 @interface CDMainViewController ()
 {
@@ -21,8 +22,11 @@
 
 - (IBAction)buttonEnterTableGroup:(UIButton *)sender
 {
-    CDTestGroupViewController *group = [[CDTestGroupViewController alloc] init];
-    [self.navigationController pushViewController:group animated:YES];
+//    CDTestGroupViewController *group = [[CDTestGroupViewController alloc] init];
+//    [self.navigationController pushViewController:group animated:YES];
+    
+    CDNewLinerHomeViewController *homeController = [[CDNewLinerHomeViewController alloc] init];
+    [self.navigationController pushViewController:homeController animated:YES];
 }
 
 

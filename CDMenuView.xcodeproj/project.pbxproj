@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3713C3291CD8852E0025E941 /* CExpandHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3713C3271CD8852E0025E941 /* CExpandHeader.m */; };
 		3713C32A1CD8852E0025E941 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = 3713C3281CD8852E0025E941 /* image.png */; };
+		374AB41A1D1BDE34004F032D /* CDNewLinerHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374AB4191D1BDE34004F032D /* CDNewLinerHomeViewController.m */; };
+		374AB41E1D1BDEB1004F032D /* CDCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 374AB41D1D1BDEB1004F032D /* CDCollectionViewFlowLayout.m */; };
 		3763A9E61CC62C7C001461A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763A9E51CC62C7C001461A6 /* main.m */; };
 		3763A9E91CC62C7C001461A6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3763A9E81CC62C7C001461A6 /* AppDelegate.m */; };
 		3763A9F11CC62C7C001461A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3763A9F01CC62C7C001461A6 /* Assets.xcassets */; };
@@ -34,6 +36,10 @@
 		3713C3261CD8852E0025E941 /* CExpandHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CExpandHeader.h; sourceTree = "<group>"; };
 		3713C3271CD8852E0025E941 /* CExpandHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CExpandHeader.m; sourceTree = "<group>"; };
 		3713C3281CD8852E0025E941 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		374AB4181D1BDE34004F032D /* CDNewLinerHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDNewLinerHomeViewController.h; sourceTree = "<group>"; };
+		374AB4191D1BDE34004F032D /* CDNewLinerHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDNewLinerHomeViewController.m; sourceTree = "<group>"; };
+		374AB41C1D1BDEB1004F032D /* CDCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		374AB41D1D1BDEB1004F032D /* CDCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		3763A9E11CC62C7C001461A6 /* CDMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3763A9E51CC62C7C001461A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3763A9E71CC62C7C001461A6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +96,25 @@
 			path = CExpandHeader;
 			sourceTree = "<group>";
 		};
+		374AB4171D1BDE34004F032D /* 新版邮轮首页 */ = {
+			isa = PBXGroup;
+			children = (
+				374AB4181D1BDE34004F032D /* CDNewLinerHomeViewController.h */,
+				374AB4191D1BDE34004F032D /* CDNewLinerHomeViewController.m */,
+				374AB41B1D1BDEB1004F032D /* Views */,
+			);
+			path = "新版邮轮首页";
+			sourceTree = "<group>";
+		};
+		374AB41B1D1BDEB1004F032D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				374AB41C1D1BDEB1004F032D /* CDCollectionViewFlowLayout.h */,
+				374AB41D1D1BDEB1004F032D /* CDCollectionViewFlowLayout.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		3763A9D81CC62C7C001461A6 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +169,7 @@
 		3763A9FC1CC62CF5001461A6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				374AB4171D1BDE34004F032D /* 新版邮轮首页 */,
 				3763A9FF1CC62D1F001461A6 /* CDMainViewController.h */,
 				3763AA001CC62D1F001461A6 /* CDMainViewController.m */,
 				3763AA011CC62D1F001461A6 /* CDMainViewController.xib */,
@@ -303,11 +329,13 @@
 				3763A9E91CC62C7C001461A6 /* AppDelegate.m in Sources */,
 				37C508421CD05B90004D972F /* CDGroupOneCell.m in Sources */,
 				3763AA021CC62D1F001461A6 /* CDMainViewController.m in Sources */,
+				374AB41A1D1BDE34004F032D /* CDNewLinerHomeViewController.m in Sources */,
 				37C5084B1CD05D6E004D972F /* UIView+RoundedCorner.m in Sources */,
 				3763AA061CC62D6E001461A6 /* CDMenuView.m in Sources */,
 				3763A9E61CC62C7C001461A6 /* main.m in Sources */,
 				3713C3291CD8852E0025E941 /* CExpandHeader.m in Sources */,
 				37C5083C1CD057B2004D972F /* CDTestGroupViewController.m in Sources */,
+				374AB41E1D1BDEB1004F032D /* CDCollectionViewFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
