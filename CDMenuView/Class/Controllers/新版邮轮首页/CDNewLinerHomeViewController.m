@@ -46,7 +46,7 @@ NSString *const UICollectionElementKindSectionFooterID = @"NewLinerHomeCollectio
     [_collectionViewLinerHome reloadData];
 }
 
-#pragma mark - UICollection View Delegate
+#pragma mark - UI Collection View  Data  And  Delegate
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString * CellIdentifier = @"MyCollectionCellID";
